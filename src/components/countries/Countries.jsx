@@ -17,7 +17,7 @@ const Countries = () => {
         const newVisitedCountry = [...visitedCountry, country]
         setVisitedCountry(newVisitedCountry)
     }
-
+    
     return (
         <>
             <div className="lg:sticky lg:top-0 z-50 bg-white pb-3">
@@ -25,9 +25,9 @@ const Countries = () => {
                 <ul className="flex gap-5 justify-center flex-wrap">                    
                     {
                         visitedCountry.map(country => {
-                            return(
+                            return (
                                 <a key={country.cca3} href={`#${country.cca3}`} className="border-2 border-sky-100 py-1 px-4 rounded-md shadow-md flex justify-evenly items-center gap-2">
-                                    <img className="w-10 rounded-md" src={country.flags.png}/>
+                                    <img className="w-10 rounded-md" src={country.flags.png} />
                                     <span>{country?.name?.common}</span>
                                     {console.log(country)}
                                 </a>
