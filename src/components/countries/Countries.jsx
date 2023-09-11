@@ -20,7 +20,7 @@ const Countries = () => {
 
     return (
         <>
-            <div className="">
+            <div className="lg:sticky lg:top-0 z-50 bg-white pb-3">
                 <h1 className="text-3xl text-center py-5"> Visited Countries : {visitedCountry.length}</h1>
                 <ul className="flex gap-5 justify-center flex-wrap">                    
                     {
