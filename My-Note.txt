@@ -1,0 +1,20 @@
+rsc 
+
+countries.map(country => <Country key={country.cca3} country={country}></Country>)
+
+
+.eslintrc.cjs  ay file e add korte hobe warning off korar jonno
+'react/prop-types' : 'off'
+
+
+Prop Driling 
+{...pros}
+
+
+
+Publish to live site : 
+npm run build
+
+
+
+
